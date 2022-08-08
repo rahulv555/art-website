@@ -1,0 +1,8 @@
+npm i axios moment react-file-base 64 redux redux-thunk 
+
+AXIOS = for api requests
+moment = for time and date
+react-file-base 64  = to convert the images
+redux-thunk = used for async operations us redux
+
+npm i @material-ui/core -legacy-peer-deps
