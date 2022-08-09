@@ -4,17 +4,17 @@ This is a social media website I created for an art gallery, where the users can
 
 The website has been implemented using MERN stack, with features such as searching, recommending similiar posts, comments, profiles and authentication, along with CRUD operations for the posts by authenticated users. 
 For styling the website, material-ui and CSS has been used, and I aim to improve the styling by using Tailwind CSS in the future.
-Technologies used : 
-Mongoose/MongoDB
-Express
-ReactJS, Redux
-material-ui
-Node.js
-HTML, CSS
-jsonwebtoken and bcryptjs(for authentication)
-Axios
+Technologies used : <br />
+Mongoose/MongoDB<br />
+Express<br />
+ReactJS, Redux<br />
+material-ui<br />
+Node.js<br />
+HTML, CSS<br />
+jsonwebtoken and bcryptjs(for authentication)<br />
+Axios<br />
 
-
+<br />
 
 #USAGE
 
