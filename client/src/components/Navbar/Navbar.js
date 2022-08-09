@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux'
 
 import decode from 'jwt-decode'
 
-import logo from '../../images/logo.jpeg'
+import logo from '../../images/logo2.png'
 
 //to make the Title link to home, make stuff multiplage
 import {Link, BrowserRouter as Router, Switch, Route, Navigate, useNavigate, useLocation} from 'react-router-dom'
@@ -54,8 +54,9 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position='static' color='inherit'>
         <div className={classes.brandContainer}>
+            <img className={classes.image} src={logo} alt='logo' height="100" width="100"/> 
             <Typography  component={Link} to='/' className={classes.heading} variant = 'h2' align="center">Art Gallery</Typography>
-            <img className={classes.image} src={logo} alt='logo' height="60"/> 
+            
             
         </div>
         <Toolbar className={classes.toolbar}>
